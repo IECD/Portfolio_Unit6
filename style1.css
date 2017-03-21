@@ -1,7 +1,7 @@
     header {
       text-align: center;
       background-size:700px;
-      background-color: #41f4cd;
+      background-color: #45f442;
       color: white;
       height: 700px;
       Width: 700px;
@@ -24,10 +24,15 @@
       background: rgba(0,0,0,0.5);
     }
   
-    }
     div{
       max-width: 500px;
       padding: 20px;
       margin: 0 auto;
     }
-
+    @media (max-width: 500px) {
+      li {
+        padding: 5px;
+      }
+      p {
+        font-size: 80;
+    }
